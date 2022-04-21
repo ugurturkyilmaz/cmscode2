@@ -1,0 +1,21 @@
+{
+	"dependencies": {
+	},
+	"jest": {
+		"setupFiles": [
+			"<rootDir>/jest-setup.config.js"
+		]
+	},
+	"main": "js/index.js",
+	"name": "@liferay/layout-content-page-editor-web",
+	"optionalDependencies": {
+		"fsevents": "^1.2.7"
+	},
+	"scripts": {
+		"build": "liferay-npm-scripts build",
+		"checkFormat": "liferay-npm-scripts check",
+		"format": "liferay-npm-scripts fix",
+		"test": "liferay-npm-scripts test"
+	},
+	"version": "3.0.91"
+}
